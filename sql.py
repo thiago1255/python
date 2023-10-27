@@ -1,3 +1,6 @@
+import sqlite3
+from sqlite3 import Error
+
 database = sqlite3.connect("database.sqlite")
 
 def sql(c, d, r):
